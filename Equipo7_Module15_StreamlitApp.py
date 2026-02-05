@@ -568,7 +568,7 @@ def page_monitoring():
 # DATA LOADING FUNCTIONS
 # ============================================================================
 
-@st.cache_data(ttl=3600)
+
 def load_feedback_data():
     """
     Carga los datos de feedback directamente sin cache para permitir
